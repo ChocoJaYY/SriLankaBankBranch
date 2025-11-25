@@ -72,21 +72,6 @@ with open("bank_data.json", "r", encoding="utf-8") as f:
 print(data["Commercial Bank Of Ceylon PLC"]["code"])
 ```
 
----
-
-## 🛠 Generation Script
-
-If you have the raw CSV source files and need to regenerate the JSON, use the included Python script.
-
-1. Place the source CSV files in the repository root:
-   - `LPPL_BankBranchDirectory_AllProducts_20251114 - Bank.csv`
-   - `LPPL_BankBranchDirectory_AllProducts_20251114 - Branch NEW.csv`
-2. Run the generator:
-   ```bash
-   python generate_json.py
-   ```
-
----
 
 ## 📜 License
 
